@@ -1,2 +1,2 @@
 # meetsoon_html_template
-This is a simple html5 responsive template for multipurpose use. 
+This is a simple html5 responsive template for multipurpose use. This file was created when Bootstrap came up with first relases of Bootstrap V:3. You can feel free to use this is for your project. But i think you need to edit and update with all latest vendor plugins first because i already used older version of those plugins. Also you can check on my <a href="http://www.sharojit.com/" title="Freelancer Web Developer">website</a> for get the update, if i can manage time for update it. 
