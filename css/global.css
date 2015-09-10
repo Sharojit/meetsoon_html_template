@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*== Reset ==*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*== Global Style ==*/
+
+body { 
+	font-family: 'lobster_twobold';
+	overflow: hidden;
+	color: #9c9c9c;
+	padding: 3% 0;
+	font-size: 18px;
+}
+
+#none{display: none;}
+
+a{	
+	text-decoration: none;
+	color: #6ebfa3;
+	-webkit-transition: color 500ms ;
+	-moz-transition: color 500ms ;
+	-ms-transition: color 500ms ;
+	-o-transition: color 500ms ;
+	transition: color 500ms ;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+/*-- For Image; always in middle --*/	
+img.mate-displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 35px solid #DBDBDB;
+	-webkit-box-shadow: 0px 20px 15px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 20px 15px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 20px 15px 5px rgba(50, 50, 50, 0.75);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+h1{
+	font-size: 40px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	color: #6ebfa3;
+}
+
+ul{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*-- Some social icons hover issue :) --*/
+.facebook:hover,.facebook:focus{color:#3B5998;}
+.twitter:hover,.twitter:focus{color:#00ACEE;}
+.linkedin:hover,.linkedin:focus{color:#0274B3;}
+.google:hover,.google:focus{color:#DA2713;}
+.tumblr:hover,.tumblr:focus{color:#31506C;}
+.pinterest:hover,.pinterest:focus{color:#A91A20;}
+.viemo:hover,.viemo:focus{color:#1AB7EA;}
+.youtube:hover,.youtube:focus{color:#AD2826;}
+.rss:hover,.rss:focus{color:#FF9900;}
+.flickr:hover,.flickr:focus{color:#fff;}
+.skype:hover,.skype:focus{color:#00AFF0;}
+.dribbble:hover,.dribbble:focus{color:#CB376E;}
+.github:hover,.github:focus{color:#4B3831;}
+
+/*-- social icon hover delay style --*/
+
+.facebook:hover,.facebook:focus, .twitter:hover,.twitter:focus, .linkedin:hover,.linkedin:focus, .google:hover,.google:focus, .tumblr:hover,.tumblr:focus, .pinterest:hover,.pinterest:focus, .viemo:hover,.viemo:focus, .youtube:hover,.youtube:focus, .flickr:hover,.flickr:focus, .rss:hover,.rss:focus, .skype:hover,.skype:focus, .dribbble:hover,.dribbble:focus, .github:hover,.github:focus{
+	-webkit-transition: color 500ms ;
+	-moz-transition: color 500ms ;
+	-ms-transition: color 500ms ;
+	-o-transition: color 500ms ;
+	transition: color 500ms ;
+}
+
+
+/*------------------------------------------------------------------------------------
+--------------------------------- Font family ----------------------------------------
+-------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'lobster_twobold';
+    src: url('fonts/lobstertwo-bold-webfont.eot');
+    src: url('fonts/lobstertwo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobstertwo-bold-webfont.woff') format('woff'),
+         url('fonts/lobstertwo-bold-webfont.ttf') format('truetype'),
+         url('fonts/lobstertwo-bold-webfont.svg#lobster_twobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
